@@ -138,6 +138,75 @@ section {
     object-fit: cover;
 }
 
+.posts .post-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.posts .post-footer .save {
+    font-size: 22px;
+}
+
+.posts .post-footer .like-share-comment i {
+    margin: 10px 0;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.post-footer-content {
+    padding: 0 16px 16px 16px;
+}
+
+.post-footer-conten p {
+    margin-bottom: 3px;
+}
+
+.post-footer-content .likes {
+    margin-bottom: 8px;
+}
+
+.posts .post-footer-content .name {
+    font-weight: 600;
+}
+
+.posts .post-footer-content span {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.posts .post-footer-content .posting-time {
+    font-size: 10px;
+    margin-top: 6px;
+    color: gray;
+}
+
+.add-comment {
+    padding: 16px;
+    border-top: 1px solid #8e8e8e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-comment i {
+    font-size: 25px;
+}
+
+.add-comment input {
+    border: none;
+    margin-left: 5px;
+    height: 35px;
+    width: 300px;
+}
+
+.add-comment .right-side button {
+    border: none;
+    color: #0095f6;
+    float: right;
+    margin-right: 30px;
+}
+
 .right-side {
     width: 35%;
 }
